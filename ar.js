@@ -250,6 +250,6 @@ var i18n = {
     "SS": " جنوب السودان"
 };
 exports.i18n = function() {
-    "use strict";
+    
     return i18n;
 };

@@ -251,6 +251,6 @@ var i18n = {
 };
 
 exports.i18n = function() {
-  "use strict";
+  
   return i18n;
 };

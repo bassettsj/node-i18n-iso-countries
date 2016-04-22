@@ -2,7 +2,7 @@ var assert = require("assert-plus"),
 	i18niso = require("../index");
 
 describe("i18n for iso 3166-1", function () {
-	"use strict";
+	
 	describe("Alpha-2 to Alpha-2 code", function() {
 		it("toAlpha2 SG => SG", function() {
 			assert.equal(i18niso.toAlpha2("SG"), "SG");
